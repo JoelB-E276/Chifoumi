@@ -5,13 +5,14 @@ alert ('Heureux de te faire ta connaissance'+ " " +name+' Clique sur "OK" si tu 
 //
 var chifoumi = prompt('Choisis et tapes : pierre, feuille ou ciseaux puis valide avec "OK"');
 
+const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+const randomMonth = months[Math.floor(Math.random() * months.length)];
+
+console.log("random month =>", randomMonth);
 
 
-var play = [
-    pierre=1,
-    feuille=2,
-     ciseaux=3,]
-[Math.floor(Math.random(play)*4)]
 
-console.log (play);
+const choise = ["pierre", "feuille", "ciseaux"];
+const randomChoise = choise[Math.floor(Math.random() * choise.length)];
 
+console.log("random choise =>", randomChoise);
