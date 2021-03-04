@@ -1,6 +1,5 @@
 //        JEU DU CHIFOUMI
 // Message d'acceuil avec boite d'invite pour indiquer son nom.
-
         var name = prompt('Bienvenue ! Tu peux te détendre en faisant une partie de Chifoumi ! Quel est ton nom ?');
 
 // Réutilisation du nom avec validation
