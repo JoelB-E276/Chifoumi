@@ -9,8 +9,8 @@ alert ('Heureux de te faire ta connaissance'+ " " +name+'. Clique sur "OK" si tu
 var chifoumi = prompt('Choisis en tapant : pierre, feuille ou ciseaux puis valide avec "OK"');
 
 // Affichage des choix utilisateur et machine
-var choise = ["pierre", "feuille", "ciseaux"];
-var randomChoice = choise[Math.floor(Math.random() * choice.length)];
+var choice = ["pierre", "feuille", "ciseaux"];
+var randomChoice = choice[Math.floor(Math.random() * choice.length)];
 
 alert ("Tu as choisi " +chifoumi+ ",et j'ai choisi "+randomChoice);
 
