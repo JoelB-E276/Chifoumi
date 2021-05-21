@@ -1,3 +1,0 @@
-###    Jeu du Chifoumi
-
-##   Jeu du Chifoumi via boite de dialogue créér en JavaScript.
